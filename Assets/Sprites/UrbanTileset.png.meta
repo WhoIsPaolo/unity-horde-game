@@ -129,7 +129,7 @@ TextureImporter:
       213: -4058539909582847183
     second: UrbanTileset_61
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -150,6 +150,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -159,8 +160,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -188,6 +189,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -203,6 +205,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -898,6 +912,39 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      UrbanTileset_0: -622446577948637768
+      UrbanTileset_1: -5219092347930117380
+      UrbanTileset_10: 4918748689307463025
+      UrbanTileset_11: -6887482959333352995
+      UrbanTileset_12: 2686285937429879408
+      UrbanTileset_13: -5972478150357528484
+      UrbanTileset_14: 3216049444881929551
+      UrbanTileset_15: 3339259978271057706
+      UrbanTileset_16: 271184518614819003
+      UrbanTileset_17: -3305179074544695430
+      UrbanTileset_18: 4663493205452367548
+      UrbanTileset_19: -4146849657082146277
+      UrbanTileset_2: -3735395875713024876
+      UrbanTileset_20: 4960130603704024175
+      UrbanTileset_21: -4465779100974619316
+      UrbanTileset_22: -5672648503216924565
+      UrbanTileset_23: -673376887615069092
+      UrbanTileset_24: 6867432756580438431
+      UrbanTileset_25: -2349275953962358039
+      UrbanTileset_26: 1329931567816323342
+      UrbanTileset_27: -4313923752095174274
+      UrbanTileset_28: -1035841673241952288
+      UrbanTileset_29: 2933398761399275517
+      UrbanTileset_3: 8094458308442542136
+      UrbanTileset_30: -6519369109131371968
+      UrbanTileset_31: 491226859044409282
+      UrbanTileset_4: -281953901661281035
+      UrbanTileset_5: -6356766618177576028
+      UrbanTileset_6: -6168826181603467185
+      UrbanTileset_7: 2989725248236991288
+      UrbanTileset_8: -6512908357847507476
+      UrbanTileset_9: -1808533489511014943
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

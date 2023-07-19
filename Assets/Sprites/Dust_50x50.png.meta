@@ -75,7 +75,7 @@ TextureImporter:
       213: -8708748561017709310
     second: Dust_50x50_23
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -96,6 +96,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -105,8 +106,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -134,6 +135,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -149,6 +151,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -676,6 +690,31 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Dust_50x50_0: 3876979507059803399
+      Dust_50x50_1: -6178043859993652059
+      Dust_50x50_10: -6474302523249131952
+      Dust_50x50_11: 3822968048521563533
+      Dust_50x50_12: -4986471564152039633
+      Dust_50x50_13: 6605669500872689300
+      Dust_50x50_14: -8863895704373861379
+      Dust_50x50_15: -5831325237552240654
+      Dust_50x50_16: 5938093382981506180
+      Dust_50x50_17: -7288547328203645907
+      Dust_50x50_18: 5601143715697480150
+      Dust_50x50_19: 6942408159215522937
+      Dust_50x50_2: 6340886653023700036
+      Dust_50x50_20: 7540278694226071002
+      Dust_50x50_21: 6656745921976236138
+      Dust_50x50_22: -792407422889593329
+      Dust_50x50_23: -8708748561017709310
+      Dust_50x50_3: -4594667865871595775
+      Dust_50x50_4: -5289332644304462914
+      Dust_50x50_5: -1761209915452245708
+      Dust_50x50_6: 436815570573245049
+      Dust_50x50_7: 4777575750339030898
+      Dust_50x50_8: 2551644256386576492
+      Dust_50x50_9: 3772578109816258687
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

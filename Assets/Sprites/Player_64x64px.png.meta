@@ -162,7 +162,7 @@ TextureImporter:
       213: 3015333943060123205
     second: Player_64x64px_52
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -183,6 +183,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -192,8 +193,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -221,6 +222,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -236,6 +238,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -1372,6 +1386,60 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Player_64x64px_0: -3412204512448126000
+      Player_64x64px_1: -8178662871059462883
+      Player_64x64px_10: 1243278325309750014
+      Player_64x64px_11: 5564678072293699144
+      Player_64x64px_12: -8504215205234618474
+      Player_64x64px_13: 1987781966489589619
+      Player_64x64px_14: 6258185237341434008
+      Player_64x64px_15: -5041074133512846176
+      Player_64x64px_16: -3857492565979380903
+      Player_64x64px_17: 1222361806003135758
+      Player_64x64px_18: -4718490035282106171
+      Player_64x64px_19: 5165718116927895901
+      Player_64x64px_2: -9022669652582620290
+      Player_64x64px_20: -8715030499380438310
+      Player_64x64px_21: 3364929951439560603
+      Player_64x64px_22: 8499586466817878088
+      Player_64x64px_23: 8468921686161294410
+      Player_64x64px_24: 1501223492879885200
+      Player_64x64px_25: -4448289159110082340
+      Player_64x64px_26: -4983807738241512427
+      Player_64x64px_27: 469122788645419637
+      Player_64x64px_28: -8066779834746941367
+      Player_64x64px_29: -4056879266285104940
+      Player_64x64px_3: -9129620822092483128
+      Player_64x64px_30: -3577103913148827828
+      Player_64x64px_31: -3839147046426672680
+      Player_64x64px_32: 8875430776137337223
+      Player_64x64px_33: -1009133845602780845
+      Player_64x64px_34: 893068105447626781
+      Player_64x64px_35: 7537558162232535490
+      Player_64x64px_36: -7274482943537363124
+      Player_64x64px_37: -3221994496352655937
+      Player_64x64px_38: -251334905111119733
+      Player_64x64px_39: -6277232380574618871
+      Player_64x64px_4: -6667945920539542172
+      Player_64x64px_40: 5913931811921919711
+      Player_64x64px_41: 5930327964641483024
+      Player_64x64px_42: 8590457254329852794
+      Player_64x64px_43: 8293195978492539459
+      Player_64x64px_44: -1584868019983351189
+      Player_64x64px_45: -5199363046445661241
+      Player_64x64px_46: -6999458035102195469
+      Player_64x64px_47: 671778861146041932
+      Player_64x64px_48: 6343363150773354474
+      Player_64x64px_49: 700729739001705904
+      Player_64x64px_5: -7376458835035067452
+      Player_64x64px_50: -2279704077435646801
+      Player_64x64px_51: -6414457588231902414
+      Player_64x64px_52: 3015333943060123205
+      Player_64x64px_6: -231917082499407435
+      Player_64x64px_7: 3218661540865699248
+      Player_64x64px_8: 6051157788078637693
+      Player_64x64px_9: -937585170730184249
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
